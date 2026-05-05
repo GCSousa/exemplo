@@ -1,0 +1,3 @@
+Foi corrigido um erro em que a tolerância ignorava o campo de pesagem no modo manual, problema que se agravava no modo contínuo. Também foi aprimorada a tela lateral e ajustado o peso atual, agora considerando a tolerância. 
+
+Os demais arquivos estão disponíveis em documentos.

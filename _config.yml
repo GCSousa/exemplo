@@ -1,0 +1,32 @@
+title: "Sistema de Pesagem Protege"
+description: "Documentação Oficial - Sistema de Controle de Ração"
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+# Configurações para GitHub Pages
+url: "https://GCSousa.github.io"
+baseurl: "/exemplo"
+
+# Habilita busca
+search_enabled: true
+
+# Sidebar
+nav_sort: order
+
+# Realce de sintaxe
+highlighter: rouge
+markdown: kramdown
+encoding: utf-8
+kramdown:
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-include-cache
